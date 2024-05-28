@@ -17,7 +17,7 @@ label start:
 
     scene bg theatre
     show benny idle at left
-    show chad idle at right
+    show kevin idle at right
     kev "Hello I am pleased to meet you."
     # This ends the game.
 
