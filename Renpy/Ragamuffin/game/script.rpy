@@ -5,6 +5,7 @@
 
 define kev = Character("Kevin")
 define ben = Character("Benny")
+define frd = Character("Fred")
 
 
 # The game starts here.
@@ -17,8 +18,10 @@ label start:
 
     scene bg theatre
     show benny idle at left
-    show chad idle at right
+    show kevin idle at right
     kev "Hello I am pleased to meet you."
+    ben "Fuck you" 
+    hide benny
     # This ends the game.
 
     return
